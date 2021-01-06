@@ -24,7 +24,7 @@
 
 2.[下载](files/nginx-1.18.0.zip)Nginx并解压，或[官网下载](http://nginx.org/en/download.html)`Stable version`->`nginx/Windows-1.x.x`
 
-3.[下载](files/via.apk)旧版Via，在解压的Nginx目录里面新建文件夹`files`，把`via.apk`放到`files`文件夹里
+3.[下载](files/via.apk.zip)旧版Via并解压，在Nginx目录里面新建文件夹`files`，把`via.apk`放到`files`文件夹里
 
 4.将以下内容粘贴到`conf/nginx.conf`最后一行花括号`}`的**前面**
 
@@ -70,7 +70,7 @@
 
 前提：手机通过USB热点共享网络给电脑，电脑开启Wi-Fi热点共享网络给车机(win10自带或猎豹wifi)
 
-1.[下载](files/FiddlerSetup.exe)Fiddler并安装打开 ，或[官网下载](https://www.telerik.com/fiddler)
+1.[下载](files/FiddlerSetup.exe.zip)Fiddler并解压安装运行 ，或[官网下载](https://www.telerik.com/fiddler)
 
 2.修改Hosts，点击`Tool`->`Hosts`，勾选`enable remapping...`，填入以下内容，其中`192.168.x.1`是电脑热点的ip
 
